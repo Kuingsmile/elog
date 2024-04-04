@@ -1,0 +1,16 @@
+{
+  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json",
+
+  "testEnvironment": "jest-environment-node",
+  "roots": ["<rootDir>/dist"],
+  "testMatch": ["<rootDir>/dist/**/*.test.{cjs,js}"],
+  "collectCoverageFrom": [
+    "dist/**/*.{cjs,js}",
+    "!dist/**/*.d.ts",
+    "!dist/**/*.test.{cjs,js}",
+    "!dist/**/test/**",
+    "!dist/**/__tests__/**",
+    "!dist/**/__fixtures__/**",
+    "!dist/**/__mocks__/**"
+  ]
+}

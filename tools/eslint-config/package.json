@@ -1,0 +1,28 @@
+{
+  "name": "@elogx-test/eslint-config",
+  "version": "0.4.0",
+  "description": "ultron eslint 基础配置",
+  "scripts": {
+    "build": ""
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "ultron",
+    "base"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@rushstack/eslint-config": "~3.0.0",
+    "@rushstack/eslint-patch": "~1.1.4",
+    "@rushstack/eslint-plugin": "~0.10.0",
+    "@rushstack/eslint-plugin-security": "~0.4.0",
+    "eslint-plugin-promise": "~6.0.1",
+    "@typescript-eslint/parser": "~5.57.1",
+    "@typescript-eslint/eslint-plugin": "~5.57.1"
+  },
+  "devDependencies": {
+    "eslint": "~8.22.0",
+    "typescript": "~5.2.2"
+  }
+}

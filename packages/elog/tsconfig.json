@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@elogx-test/heft-node-rig/profiles/default/tsconfig-base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false
+  }
+}

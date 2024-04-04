@@ -1,0 +1,25 @@
+{
+  "name": "@elogx-test/elog",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "heft build --clean"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "lodash": "^4.17.21",
+    "shelljs": "^0.8.5",
+    "urllib": "2.40.0"
+  },
+  "devDependencies": {
+    "@rushstack/heft": "~0.63.0",
+    "typescript": "~5.2.2",
+    "eslint": "~8.22.0",
+    "@elogx-test/heft-node-rig": "workspace:*",
+    "@elogx-test/eslint-config": "workspace:*",
+    "@types/lodash": "^4.14.189",
+    "@types/shelljs": "^0.8.11"
+  }
+}

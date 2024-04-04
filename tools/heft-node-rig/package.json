@@ -1,0 +1,29 @@
+{
+  "name": "@elogx-test/heft-node-rig",
+  "version": "0.4.0",
+  "description": "面向 node 的 npm 包的基础开发配置",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "keywords": [
+    "config",
+    "heft",
+    "node"
+  ],
+  "peerDependencies": {
+    "@rushstack/heft": "~0.63.0"
+  },
+  "author": "huzh02@mingyuanyun.com",
+  "license": "ISC",
+  "dependencies": {
+    "jest-environment-node": "~29.7.0",
+    "@rushstack/heft-typescript-plugin": "~0.2.10",
+    "@rushstack/heft-lint-plugin": "~0.2.10",
+    "@rushstack/heft-api-extractor-plugin": "~0.2.10",
+    "@rushstack/heft-jest-plugin": "~0.10.2"
+  },
+  "devDependencies": {
+    "@rushstack/heft": "~0.63.0"
+  }
+}
